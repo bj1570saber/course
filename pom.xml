@@ -55,6 +55,12 @@
 				<version>8.0.21</version>
 			</dependency>
 
+			<!--import server module-->
+			<dependency>
+				<groupId>com.course</groupId>
+				<artifactId>server</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
