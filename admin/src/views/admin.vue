@@ -419,7 +419,7 @@
       <div class="footer-inner">
         <div class="footer-content">
 						<span class="bigger-120">
-							<span class="blue bolder">Demo</span>
+							<span class="blue bolder">bj1570saber@gmail.com</span>
 							Online Course &copy; 2020
 						</span>
 
