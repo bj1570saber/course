@@ -19,6 +19,6 @@ public class BusinessApplication {
 		SpringApplication app = new SpringApplication(BusinessApplication.class);
 		Environment env = app.run(args).getEnvironment();
 		LOG.info("Running Successful");
-		LOG.info("System address: \thttp://127.0.0.1:{}", env.getProperty("server.port"));
+		LOG.info("Business address: \thttp://127.0.0.1:{}", env.getProperty("server.port"));
 	}
 }

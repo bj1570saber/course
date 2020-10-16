@@ -29,11 +29,7 @@
                         userId="courseimooc"
                         password="courseimooc">
         </jdbcConnection>
-<!--        <jdbcConnection driverClass="com.mysql.jdbc.Driver"-->
-<!--                        connectionURL="jdbc:mysql://localhost:3306/courseimooc"-->
-<!--                        userId="courseimooc"-->
-<!--                        password="courseimooc">-->
-<!--        </jdbcConnection>-->
+
         <!-- domain类的位置 -->
         <javaModelGenerator targetPackage="com.course.server.domain"
                             targetProject="src/main/java"/>

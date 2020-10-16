@@ -6,9 +6,10 @@ import Router from 'vue-router'
 import Login from './views/login.vue'
 import Admin from "./views/admin.vue"
 import Welcome from "./views/admin/welcome.vue"
+import Chapter from "./views/admin/chapter.vue"
 // import Category from "./views/admin/category.vue"
 // import Course from "./views/admin/course.vue"
-// import Chapter from "./views/admin/chapter.vue"
+
 // import Section from "./views/admin/section.vue"
 // import Content from "./views/admin/content.vue"
 // import Teacher from "./views/admin/teacher.vue"
@@ -36,6 +37,9 @@ export default new Router({
         children: [{
             path: 'welcome',
             component: Welcome,
+        }, {
+            path: "chapter",
+            component: Chapter,
         }]
     }]
 })
