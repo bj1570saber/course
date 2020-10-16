@@ -358,7 +358,7 @@
 
         <ul class="nav nav-list">
           <li class="" id="welcome-sidebar">
-            <router-link to="/admin/welcome">
+            <router-link to="/welcome">
               <i class="menu-icon fa fa-tachometer"></i>
               <span class="menu-text"> Dashboard </span>
             </router-link>
@@ -412,7 +412,7 @@
             <ul class="submenu">
               <!--id flow the routing naming-->
               <li class="active" id="business-chapter-sidebar">
-                <router-link to="/admin/business/chapter">
+                <router-link to="/business/chapter">
                   <!--大章管理-->
                   <i class="menu-icon fa fa-caret-right"></i>
                   Chapter
