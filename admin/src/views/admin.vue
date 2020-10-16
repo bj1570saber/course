@@ -482,9 +482,24 @@
 export default {
   name: 'admin',
   mounted: function () {
+    let _this = this;// avoid conflict of .js this keyword;
     $('body').removeClass('login-layout light-login');
     $('body').attr('class', 'no-skin');
-    console.log('admin');
+    // console.log('admin');
+    // method 2: activeSidebar()
+    _this.activeSidebar(_this.$route.name.replace("/", "-") + "-sidebar");
+  },
+  watch: {
+    $route: {
+      handler:function(val, oldVal){
+        // method 2: activeSidebar()
+        console.log("---->page redirect: ", val, oldVal);
+        let _this = this;
+        _this.$nextTick(function(){// execute after page loading.
+          _this.activeSidebar(_this.$route.name.replace("/", "-") + "-sidebar");
+        })
+      }
+    }
   },
   methods: {
     login() {
