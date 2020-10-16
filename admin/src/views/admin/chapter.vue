@@ -975,3 +975,14 @@
 <!--    </div>&lt;!&ndash; /.span &ndash;&gt;-->
 <!--  </div>-->
 </template>
+
+<script>
+export default {
+  name: 'chapter',
+  mounted: function(){
+    this.$parent.activeSidebar("business-chapter-sidebar")
+  },
+  methods: {
+  }
+}
+</script>
